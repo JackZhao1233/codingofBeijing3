@@ -1,0 +1,156 @@
+#selection-master #r1{
+    padding: 0;
+  }
+  
+  #selection-master li {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #selection-master h2 {
+    text-align: center;
+  }
+  #selection-master h2:not(:first-child) {
+    margin-top: 45px;
+  }
+  
+  #selection-master p {
+    margin: 20px 0 10px;
+  }
+  #selection-master p + p {
+    margin-top: 0;
+  }
+  
+  #selection-master .container2 {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  /*
+  #selection-master .carousel {
+    margin: 0 30px;
+    width: calc(100% - ($button-spacing * 2));
+  }
+  #selection-master .carousel[data-shift="1"] .carousel-inner > .item {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  #selection-master .carousel .carousel-inner > .item.row {
+    margin:0 ;
+    margin-top: 0;
+  }
+  #selection-master .carousel .carousel-control {
+    background: none;
+    color: transparent;
+    overflow: hidden;
+    text-shadow: none;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    width: 5%;
+    height:30%;
+    margin-top: -3%;
+  }
+  #selection-master .carousel .carousel-control:before {
+    color: #444;
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 30px;
+  }
+  #selection-master .carousel .carousel-control:after {
+    border-radius: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    width: 100%;
+  }
+  #selection-master .carousel .carousel-control:hover:after {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7);
+  }
+  #selection-master .carousel .carousel-control.left {
+    left: -10%;
+    background: #444;
+    background-image: url(../img/arrow-left.png);
+  }
+  #selection-master .carousel .carousel-control.left:before {
+    content: '\e079';
+  }
+  #selection-master .carousel .carousel-control.left:after {
+    right: -100%;
+  }
+  #selection-master .carousel .carousel-control.right {
+    right: -10%;
+    background: #444;
+    background-image: url(../img/arrow-right.png);
+  }
+  #selection-master .carousel .carousel-control.right:before {
+    content: '\e080';
+  }
+  #selection-master .carousel .carousel-control.right:after {
+    left: -100%;
+  }*/
+  /*做响应式适配要注意！*/
+  @media screen and (min-width:420px){
+    #selection-master .img-responsive{
+      width:200px;
+      height:190px;
+      text-align: center;
+    }
+  
+  }
+  @media screen and (max-width:553px){
+    #selection-master .img-responsive{
+      width:100%;
+      height:140px;
+      text-align: center;
+    }
+    .desc{
+      font-size: 10px;
+    }
+  }
+  #selection-master .desc{
+    color: black;
+    text-align: center;
+  }
+  #selection-master .carousel-inner{
+    text-align: center;
+    align-content: center;
+  }
+  #selection-master .img-responsive{
+    border: 1px solid #444;
+  }
+  #selection-master .pict{
+    background:#cccccc;
+  }
+  .container3{
+    margin:0 auto;
+    width:100%;
+  }
+ #connect .list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+ #connect .list li{
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 10px;
+ }
+ #connect .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: Glyphicons Halflings;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,649 @@
+
+﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <SCRIPT LANGUAGE="JavaScript">
+function mobile_device_detect(url)
+{
+
+        var thisOS=navigator.platform;
+
+        var os=new Array("iPhone","iPod","iPad","android","Nokia","SymbianOS","Symbian","Windows Phone","Phone","Linux armv71","MAUI","UNTRUSTED/1.0","Windows CE","BlackBerry","IEMobile");
+
+ for(var i=0;i<os.length;i++)
+        {
+
+ if(thisOS.match(os[i]))
+        {   
+  window.location=url;
+ }
+  
+ }
+
+
+ //因为相当部分的手机系统不知道信息,这里是做临时性特殊辨认
+ if(navigator.platform.indexOf('iPad') != -1)
+        {
+  window.location=url;
+ }
+
+ //做这一部分是因为Android手机的内核也是Linux
+ //但是navigator.platform显示信息不尽相同情况繁多,因此从浏览器下手，即用navigator.appVersion信息做判断
+  var check = navigator.appVersion;
+
+  if( check.match(/linux/i) )
+          {
+   //X11是UC浏览器的平台 ，如果有其他特殊浏览器也可以附加上条件
+   if(check.match(/mobile/i) || check.match(/X11/i))
+                 {
+   window.location=url;
+   }  
+ }
+
+ //类in_array函数
+ Array.prototype.in_array = function(e)
+ {
+  for(i=0;i<this.length;i++)
+  {
+   if(this[i] == e)
+   return true;
+  }
+  return false;
+ }
+} 
+
+mobile_device_detect("/index.php/mobile");
+
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<title>山东一叶农业科技有限公司</title>
+<meta name="keywords" content="山东一叶农业科技有限公司" />
+<meta name="description" content="山东一叶农业科技有限公司" />
+<script type="text/javascript">
+	var Public = "/Public/Home/Default";
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<script  type="text/javascript" src="/Public/Home/Default/js/jquery_min.js"></script>
+<script  type="text/javascript" src="/Public/Home/Default/js/index.js"></script>
+<!--[if IE 6]><script src="/Public/Home/Default/js/png.js"></script><![endif]-->
+<link href="/Public/Home/Default/css/style.css" type="text/css" rel="stylesheet" />
+<link href="/Public/Home/Default/css/team.css" type="text/css" rel="stylesheet" />
+<script src="/Public/Home/Default/js/jquery.min.js" type="text/javascript"></script>
+<script src="/Public/Home/Default/js/function.js" type="text/javascript"></script>
+<script src="/Public/Home/Default/js/zh-cn/lang.js" type="text/javascript"></script>
+<script src="/Public/Home/Default/js/script.js" type="text/javascript"></script>
+<link href="/Public/Home/Default/css/comm.css" type="text/css" rel="stylesheet" />
+<link href="/Public/Home/Default/css/diy.css" type="text/css" rel="stylesheet" />
+<link href="/Public/Home/Default/css/focus.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="/Public/Home/Default/css/swiper.min.css">
+</head>
+<body>
+
+<script type="text/javascript">//var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256162028'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1256162028%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+<!-- 页头 -->
+<style type="text/css">
+.inform {
+    border: 1px solid #E5E5E5;
+    padding: 1px;
+}
+.inform h2 {
+    background: none repeat scroll 0 0 #015198;
+    font-weight: normal;
+    line-height: 30px;
+}
+.inform h2 span {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.inform h2 a {
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    padding-right: 3px;
+}
+.inform ul {
+    height: 170px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+.inform ul li {
+    line-height: 26px;
+    padding-left: 12px;
+}
+</style>
+﻿<!--[if IE 6]>
+<script src="/Public/Home/Default/js/DD_belatedPNG_0.0.8a-min.js" language="javascript" type="text/javascript"></script>
+<script>
+  DD_belatedPNG.fix('#top_logo');   /* string argument can be any CSS selector */
+</script>
+<![endif]-->
+
+<div class="page_style lanmupage page_l61">
+<div class="top_box">
+ <div class="top_box_inner">
+   
+   <div class="logo"><a href="">
+           <img src="/Public/Home/Default/images/s1/logo.png" border="0">
+           <span class="ctext">山东一叶农业科技有限公司</span>
+           <span class="etext">Shandong yiye agricultural science and Technology Co.,Ltd.</span>
+       </a></div>
+   <div class="topcontent"><div style="clear:both;overflow:hidden;">
+	<div style="float:left;">
+		<ul>
+			<li class="top_1">
+				SERVICE HOTLINE
+			</li>
+			<li class="top_2">
+				TEL:0536-5115511
+			</li>
+		</ul>
+	</div>
+	<div style="float:left;">
+<script type="text/javascript">
+function  c_keyword()
+ {
+  if($("title").value=="")
+  {
+    alert("请输入关键词！");
+    $("title").focus();
+    return false;
+  }
+ }
+</script>
+		
+	</div>
+</div></div><div class="clear"></div>
+   <div class="menu_box" id="Menu">       
+       <ul>
+            <li class="menu_style_homepage" id="MenuItem61" name="MenuItem"><a href="#" class="menu">首页</a></li>            
+            <li class="menu_style" id="MenuItem62" name="MenuItem"><a href="#jieshao" class="menu scroll">公司简介</a></li>
+            <li class="menu_style" id="MenuItem62" name="MenuItem"><a href="#expert" class="menu scroll">专家团队</a></li>
+            <li class="menu_style" id="MenuItem62" name="MenuItem"><a href="#cooperator" class="menu scroll">战略合作</a></li>
+            <li class="menu_style" id="MenuItem62" name="MenuItem"><a href="#promote" class="menu scroll">百菜医院</a></li>
+            <li class="menu_style" id="MenuItem65" name="MenuItem"><a href="#contactus" class="menu scroll">联系我们</a></li>            
+            <li class="menu_style" id="MenuItem63" name="MenuItem"><a href="#news" class="menu scroll" >新闻资讯</a></li>
+            <!--<li class="menu_style" id="MenuItem64" name="MenuItem"><a href="/index.php/product/group/id/22" class="menu">产品中心</a></li>-->
+        </ul>
+   </div>
+ </div>
+</div>
+
+</div>
+ 
+
+ 
+<!--@end 页头 -->		<style type="text/css">
+		/* css 重置 */
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+
+		/* 本例子css */
+		.slideBox{ width:100%; ; overflow:hidden; position:relative;  }
+		.slideBox .hd{ height:15px; overflow:hidden; position:absolute; left:50%;margin-left:-30px; bottom:25px; z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius:50%;margin-left:2px }
+		.slideBox .hd ul li.on{ background:#1e377a; color:#fff; }
+		.slideBox .bd{ position:relative; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{ width:100%;; display:block;  }
+
+		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .prev,
+		.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+		.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+
+		</style>
+
+		<div id="slideBox" class="slideBox">
+			<div class="hd">
+				<ul><li></li><li></li><li></li></ul>
+			</div>
+			<div class="bd">
+				<ul>
+                                    <li><img src="/Uploads/Images/20170215/58a3b39d62a65.jpg" alt="首页轮播" title="首页轮播" style="width:100%;height:auto" ></li><li><img src="/Uploads/Images/20170215/58a3b3ab025e2.jpg" alt="云时代" title="云时代" style="width:100%;height:auto" ></li><li><img src="/Uploads/Images/20170215/58a3b3b763232.jpg" alt="首页轮播" title="首页轮播" style="width:100%;height:auto" ></li>				</ul>
+			</div>
+
+			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+
+		</div>
+
+                <script type="text/javascript" src="/Public/Home/Default/js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript">
+                    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+		</script>
+
+<!--@end 页头 -->
+
+<div class="main_box main_box_style">
+ <div class="main_box_inner">
+<div style="width:1100px;;height:50px;margin:0 auto;position:relative">
+    <div style="position:absolute;left:0;top:0;margin-right:130px;line-height:50px;background-color:#1e377a;padding:0 10px;font-size:15px;color:#fff">最新公告 | Notice</div>
+<div style="margin-left:138px;background:#D6D6D6;padding-left:15px;" class="form">
+    <div class="gonggao marquee" id="m_179_0" style="height:50px;overflow:hidden">
+    <div class="inner " style="overflow:hidden;height:100px;text-align:left" >
+        <ul id="marquee" style="height:50px">
+            
+<li style="height:25px;line-height:25px;font-size:13px"><a href="/index.php/Article/detail/id/66" target="_self" title="农业部：紧急部署高温热害防范工作">农业部：紧急部署高温热害防范工作</a></li><li style="height:25px;line-height:25px;font-size:13px"><a href="/index.php/Article/detail/id/67" target="_self" title="破除金融支农困境尤需“三新”">破除金融支农困境尤需“三新”</a></li>        </ul>
+    </div>
+    
+</div>
+<script type="text/javascript">
+window.onload = function() {  
+    setTimeout("startmarquee(34, 50, 0, 'marquee')", 3000);  
+}
+function startmarquee(lh,speed,delay,id) {  
+
+    var t;  
+    var p = false;  
+    var o = document.getElementById(id);  
+    o.innerHTML += o.innerHTML + o.innerHTML + o.innerHTML;  
+    o.onmouseover = function() {  
+        p = true;  
+    }  
+    o.onmouseout = function() {  
+        p = false;  
+    }  
+    o.scrollTop = 0;  
+  
+    function start() {  
+        t = setInterval(scrolling,speed);  
+        if(!p) o.scrollTop += 2;  
+    }  
+  
+    function scrolling() {  
+        if(o.scrollTop%lh != 0) {  
+            o.scrollTop += 2;  
+            if(o.scrollTop >= o.scrollHeight / 2) o.scrollTop = 0;  
+        } else {  
+            clearInterval(t);  
+            setTimeout(start,delay);  
+        }  
+    }  
+    setTimeout(start,delay);  
+} 
+
+</script>
+</div>
+</div>
+
+
+
+   
+
+
+
+<div class="clr sy_con_1" id="jieshao">
+	<a class="title">
+		<img src="/Public/Home/Default/images/service/sy_1.png" /><span>About us</span>公司介绍
+	</a>
+	<div class="mero">
+		<a href="/index.php/page/group/id/20">More+</a> 
+	</div>
+</div>
+<div style="margin-top:30px;" class="wd1100">
+	<img src="/Public/Home/Default/images/service/ab.jpg" style="float:left;" /> 
+	<div style="text-indent:25px;background-color:#6173a2;float:right;width:700px;height:280px;*height:300px;padding:10px;color:white;font-size:13px;text-align:left;overflow:hidden">
+            <p>山东一叶农业科技有限公司成立于2011年，注册资金人民币500万元，坐落在山东寿光潍坊科技学院，是一家集农业新技术开发、咨询、转让和专用产品研发、销售的高技术企业。公司员工全部为大专以上学历，其中博士、硕士、学士学位者占公司所有员工的50%以上。</p>
+<p>山东一叶农业科技有限公司整合了中国农业科学院、中国农业大学、江西农业大学、青海大学等农业高等院校的优势资源，建立了以植物营养、土壤肥料和植物保护等为主的专家顾问团队，针对我国现代农业生产中由于长期偏施化肥、农药、激素等导致的土壤板结、肥力退化、环境污染、重茬问题严重、病虫害爆发、农产品质量下降等问题，研发出一系列先进技术及配套优质生产资料。</p>
+<p> 结合的大“平衡施肥”理念，结合公司自主研发的现代新型生物植保技术</p>
+<p> 结合的大“平衡施肥”理念，结合公司自主研发的现代新型生物植保技术</p>
+<p> 结合的大“平衡施肥”理念，结合公司自主研发的现代新型生物植保技术</p>
+<p> 结合的大“平衡施肥”理念，结合公司自主研发的现代新型生物植保技术</p>
+<p> 结合的大“平衡施肥”理念，结合公司自主研发的现代新型生物植保技术</p>
+        </div>
+        <div class="clr"></div>
+</div>
+ <!--专业团队-->  
+ <div class="clr sy_con_2" id="expert">   
+	<a class="title">
+            <img src="/Public/Home/Default/images/service/sy_2.png" /><span>Expert</span>专家团队
+	</a>
+   </div>
+ 
+    <div class="wd1100 sy_cont_team-expert" style="margin-top:30px;font-size:13px">
+        <ul>
+            <li>
+                    <a href="/index.php/article/detail/id/80">
+                            <img src="/Uploads/Tmp/20170211/589ec25868c24.jpg">
+                         </a>
+                        <div class="expert-name">
+                            陈国良                        </div>
+                        <div class="expert-title">
+                             高级顾问                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/81">
+                            <img src="/Uploads/Tmp/20170212/589fd754af209.jpg">
+                         </a>
+                        <div class="expert-name">
+                            汪懋华                        </div>
+                        <div class="expert-title">
+                             高级顾问                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/82">
+                            <img src="/Uploads/Tmp/20170212/589fc76fd8267.jpg">
+                         </a>
+                        <div class="expert-name">
+                            魏珉                        </div>
+                        <div class="expert-title">
+                             高级顾问                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/83">
+                            <img src="/Uploads/Tmp/20170211/589eadb0d1f0d.jpg">
+                         </a>
+                        <div class="expert-name">
+                            付春鹏                        </div>
+                        <div class="expert-title">
+                             博士                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/84">
+                            <img src="/Uploads/Tmp/20170212/589fcc9de9b20.jpg">
+                         </a>
+                        <div class="expert-name">
+                            蔡英明                        </div>
+                        <div class="expert-title">
+                             高级顾问                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/85">
+                            <img src="/Uploads/Tmp/20170212/589fcf9f21f80.jpg">
+                         </a>
+                        <div class="expert-name">
+                            李金堂                        </div>
+                        <div class="expert-title">
+                             农学博士                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/86">
+                            <img src="/Uploads/Tmp/20170211/589e7d1c1ac40.png">
+                         </a>
+                        <div class="expert-name">
+                            专家7                        </div>
+                        <div class="expert-title">
+                             专家                        </div>
+                </li><li>
+                    <a href="/index.php/article/detail/id/88">
+                            <img src="/Uploads/Tmp/20170211/589e7d2b47770.png">
+                         </a>
+                        <div class="expert-name">
+                            专家8                        </div>
+                        <div class="expert-title">
+                             专家                        </div>
+                </li>        </ul>
+        <div class="clr"></div>
+    </div>
+ <!--专业团队-->  
+ 
+  <!--战略合作-->  
+  <div class="clr sy_con_2" id="cooperator">   
+      <a class="title">
+            <img src="/Public/Home/Default/images/service/sy_3.png" /><span>Cooperator</span>战略合作
+	</a>
+   </div>
+<div class="clr wd1100 sy_cont_team-expert" style="margin-top:30px">
+    <div class="cooperation-article fl" style="width: 450px;font-size:13px">
+        <ul>
+            <li>
+                    <a href="/index.php/article/detail/id/87" target="_self" title="北京中农苑生物研究所" rel="/Uploads/Tmp/20170217/58a65711b7354.jpg">北京中农苑生物研究所</a>
+                </li><li>
+                    <a href="/index.php/article/detail/id/89" target="_self" title="中国农业大学" rel="/Uploads/Tmp/20170217/58a657d09b5fa.jpg">中国农业大学</a>
+                </li><li>
+                    <a href="/index.php/article/detail/id/90" target="_self" title="山东农业大学" rel="/Uploads/Tmp/20170217/58a657b1efe6e.jpg">山东农业大学</a>
+                </li><li>
+                    <a href="/index.php/article/detail/id/91" target="_self" title="先正达企业" rel="/Uploads/Tmp/20170211/589ec8a512e39.jpg">先正达企业</a>
+                </li>        </ul>
+    </div>
+    <div class="cooperation-photo fr">
+        <a href=""><img src=""></a>
+    </div>
+    <div class="clr"></div>
+</div>
+ <!--战略合作-->  
+
+   
+	<!--APP推广-->
+	<div class="clr sy_con_2" id="promote">
+                <div class="title">
+                        <img src="/Public/Home/Default/images/service/sy_4.png" /><span>Vegetables Hospital</span>百菜医院
+                </div>
+        </div>
+	<div class="sy_cont_team-promote" style="width: 1100px;;margin: 0 auto;margin-top: 30px;">
+		
+		<div class="sy_cont_team-promote-p">
+			<img src="/Public/Home/Default/images/service/phone_02.png" />
+		</div>
+		<div class="sy_cont_team-promote-introduce">
+			<!--<img src="images/tb.png" />-->
+			<div class="app-introduce-title">一叶智慧农业APP</div>
+			<div class="app-introduce-content">&nbsp;&nbsp;是服务现代农业生产APP，它把传统的农技服务<br />
+			与移动互联网及合起来，建立了种植户与专家对话<br />
+			的平台。专家和普通的种植户  可以在APP上自由问<br />
+			答，搭建自己的交流圈子，后期还可以帮助经营主<br />
+			体管理社员，组织农业生产活动。<br />
+			</div>
+		</div>
+		
+		<div class="sy_cont_team-promote-download">
+			<ul>
+				<li>
+					<img src="/Public/Home/Default/images/service/bg9.png"  />
+					<div class="sy_cont_team-promote-download-title">
+						安卓版下载
+					</div>
+				</li>
+				<li>
+					<img src="/Public/Home/Default/images/service/bg10.png"  />
+					<div class="sy_cont_team-promote-download-title">
+						ios版下载
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+            <div class="clr"></div>
+		
+		
+	</div>
+	
+	<!--APP推广-->
+	<div class="clr sy_con_2" id="news">
+	<div class="title">
+		<img src="/Public/Home/Default/images/service/sy_5.png" /><span>News</span>新闻资讯
+	</div>
+</div>
+
+<div class="xw_con">
+
+<div class="xw_1" style="font-size:13px">
+<div class="xw_4">专题报道<span><a href="/index.php/artilce/group/id/30">More+</a></span></div>
+<div class="xw_t"><img src="/Public/Home/Default/images/service/xw_1_1.jpg"></div>
+<div><div class="article">
+    
+        <ul class="clr">
+            <li>
+                    <span class="title">
+                    <a href="/index.php/Article/detail/id/62" target="_self" title="关注：优质农产品价高效益好" style="">关注：优质农产品价高效益好</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title">
+                    <a href="/index.php/Article/detail/id/63" target="_self" title="上半年全国农业农村经济运行稳中有进" style="">上半年全国农业农村经济运行稳中有进</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title">
+                    <a href="/index.php/Article/detail/id/64" target="_self" title="“互联网+”如何开启农业大变局" style="">“互联网+”如何开启农业大变局</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title">
+                    <a href="/index.php/Article/detail/id/65" target="_self" title="全力攻坚，变“丰收在望”为“丰收到手”" style="">全力攻坚，变“丰收在望”为“丰收到手”</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li>        </ul>
+</div>
+</div>
+</div>
+
+<div class="xw_2">
+<div class="xw_4">公司新闻<span><a href="/index.php/article/group/id/24">More+</a></span></div>
+<div><div class="article">
+    
+        <ul>
+            <li>
+                    <span class="title"><a href="/index.php/Article/detail/id/47" target="_self" title="河北肃研种业参加2016年省级重点龙头企..." style="">河北肃研种业参加2016年省级重点龙头企...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/48" target="_self" title="实现科技兴农 为现代农业提质增效" style="">实现科技兴农 为现代农业提质增效</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/49" target="_self" title="著名农业科学家杨振玉教授光临 湖北惠民三..." style="">著名农业科学家杨振玉教授光临 湖北惠民三...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/50" target="_self" title="问道神农 共御寒冬" style="">问道神农 共御寒冬</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/51" target="_self" title="中国种子协会棉花种业分会成立大会通讯" style="">中国种子协会棉花种业分会成立大会通讯</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/52" target="_self" title="热烈欢迎中国农业大学、华中农业大学社会实..." style="">热烈欢迎中国农业大学、华中农业大学社会实...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/53" target="_self" title="爱心助农 送“三万”下乡" style="">爱心助农 送“三万”下乡</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li>
+        </ul>
+</div>
+</div>
+</div>
+
+<div class="xw_3">
+<div class="xw_4">行业新闻<span><a href="/index.php/article/group/id/25">More+</a></span></div>
+<div>
+    <div class="article">
+        <ul>
+            <li>
+                    <span class="title"><a href="/index.php/Article/detail/id/55" target="_self" title="秋粮抗洪补救和防灾减灾技术意见发布" style="">秋粮抗洪补救和防灾减灾技术意见发布</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/56" target="_self" title="粮食局出台大力促进粮食科技成果转化实施意..." style="">粮食局出台大力促进粮食科技成果转化实施意...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/57" target="_self" title="城市化不是解决三农问题的根本出路" style="">城市化不是解决三农问题的根本出路</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/58" target="_self" title="全球粮食库存或达历史最高水平！最大粮商收..." style="">全球粮食库存或达历史最高水平！最大粮商收...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/59" target="_self" title="坚决打赢秋季防病治虫夺丰收硬仗" style="">坚决打赢秋季防病治虫夺丰收硬仗</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/60" target="_self" title="全球粮食库存或达历史最高水平！最大粮商收..." style="">全球粮食库存或达历史最高水平！最大粮商收...</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li><li>
+                    <span class="title"><a href="/index.php/Article/detail/id/61" target="_self" title="农业部深入推进化肥使用量零增长行动" style="">农业部深入推进化肥使用量零增长行动</a></span>
+                    <span class="date">07-27</span>
+                    <span class="clear"></span>
+                </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+
+ </div>
+ <div class="clear main_box_inner_bottom"></div>
+</div>
+
+<!-- 页脚 -->
+<div class="bottom_box"><div class="dbd">
+	<div class="dbd_1" align="center">
+		
+            <a href="/index.php">首页</a> | 
+            		
+<a href="/index.php/Page/group/id/20">公司简介</a> |<a href="/index.php/Article/group/id/32">专家团队</a> |<a href="/index.php/Article/group/id/33">战略合作</a> |<a href="/index.php/Page/group/id/34">百菜医院</a> |<a href="/index.php/Page/group/id/23">联系我们</a> |<a href="/index.php/Article/group/id/21">新闻资讯</a> |                
+	</div>
+	
+	<div class="dbd_3">
+		<div class="dbd_3_1">
+			<ul>
+				 <li class="a">山东一叶农业科技有限公司</li>
+                                    <li class="b">电话 : 0536-5115511</li>
+                                    <li class="d">邮箱 : yiye@163.com</li>
+                                    <li class="e">地址 : 山东省寿光市软件孵化大厦920室</li>			</ul>
+		</div>
+		<div class="dbd_3_2">
+			<img src="/Public/Home/Default/images/service/dbd_ew.jpg" /> 
+		</div>
+	</div>
+</div></div></div>
+<!--qq交谈-->
+
+    <div class="kefu">
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=867875975&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:867875975:53" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+    </div>
+<!--QQ交谈-->
+<script type="text/javascript">
+    $(document).ready(function($) {
+            $(".scroll").click(function(event){		
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+            
+            
+    });
+    
+</script>
+<script>
+    $(document).ready(function(){
+        var pic1 = $(".cooperation-article ul li:first a").attr("rel");
+        var url1 = $(".cooperation-article ul li:first a").attr("href");
+        $(".cooperation-photo a img").attr("src",pic1);
+        $(".cooperation-photo a").attr("href",url1);
+        $(".cooperation-article ul li a").hover(function(){
+            var pic = $(this).attr("rel");
+            var url = $(this).attr("href");
+            $(".cooperation-photo a img").attr("src",pic);
+            $(".cooperation-photo a").attr("href",url);
+        });
+    });
+</script>
+<script>
+        $(document).ready(function() {  
+            var navOffset=$("#Menu").offset().top;  
+            $(window).scroll(function(){  
+                var scrollPos=$(window).scrollTop();  
+                if(scrollPos >=navOffset){  
+                    $("#Menu").addClass("fixed");  
+                }else{  
+                    $("#Menu").removeClass("fixed");  
+                }  
+            });  
+  
+        });  
+</script>
+</body></html>
+<!--@end 页脚 -->

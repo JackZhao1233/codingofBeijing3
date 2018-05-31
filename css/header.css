@@ -1,0 +1,251 @@
+/*------------------------------------------------*/
+
+
+/*--------------[HEADER STYLE]-----------*/
+
+
+/*------------------------------------------------*/
+.header {
+    height: 66px;
+}
+
+.header {
+    z-index: 99;
+    position: relative;
+}
+
+.header .navbar {
+    margin: 0;
+}
+
+.container {
+    /*  width: min-content;*/
+    margin: 0 auto;
+}
+
+.header .navbar-default {
+    border: none;
+    background: #FFF none repeat scroll 0 0;
+    border-radius: 0;
+}
+
+.navbar-brand ul>li {
+    position: relative;
+    margin-left: -40px;
+    display: inline-block;
+}
+
+.header .navbar-header {
+    margin: 10px 0;
+}
+
+.header .navbar-brand {
+    z-index: 1;
+    position: relative;
+    float: left;
+}
+
+.logo-header {
+    padding-bottom: 5px;
+}
+
+.navbar-brand ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+
+.append {
+    position: relative;
+    margin-top: -20px;
+}
+/*分辨率调节的这一部分很重要*/
+
+@media (min-width: 1043px) {
+    #log1 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1042px) {
+    .navbar-brand ul {
+        display: none;
+    }
+    #log1 {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .navbar-brand {
+        margin-top: -10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header .navbar-brand {
+        margin-top: -4px;
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .navbar-default .navbar-toggle {
+        margin-right: 0;
+    }
+}
+
+.header .navbar-default .navbar-toggle .fa {
+    color: #fff;
+    font-size: 19px;
+}
+
+.header .navbar-toggle,
+.header .navbar-default .navbar-toggle:hover,
+.header .navbar-default .navbar-toggle:focus {
+    background: #69c4fe;
+    padding: 6px 10px 2px;
+}
+
+.header .navbar-collapse {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .header .navbar-default .navbar-nav {
+        margin-top: -14px;
+    }
+    
+}
+
+.header .navbar-default .navbar-nav>li>a {
+    color: #687074;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (min-width: 992px) {
+    .header .navbar-nav {
+        float: right;
+    }
+    .header .navbar-header {
+        width: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .navbar-header {
+        float: right;
+    }
+    .header .navbar-toggle {
+        display: block;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-toggle {
+        float: right;
+        margin-right: 3px;
+    }
+    .header .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .header .navbar-collapse.collapse.in {
+        display: block !important;
+        overflow-y: auto !important;
+    }
+    .header .navbar-nav {
+        margin: 0 0 5px;
+        float: none !important;
+    }
+    .header .navbar-nav>li {
+        float: none;
+    }
+    .header .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .header {
+        border-bottom: solid 1px #eee;
+    }
+    .header .navbar-collapse,
+    .header .navbar-collapse .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .header .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+        padding: 9px 10px;
+    }
+    .header .navbar-default .navbar-nav>li a {
+        border-bottom: solid 1px #eee;
+    }
+    .header .navbar-default .navbar-nav>li>a:focus {
+        background: none;
+    }
+    .header .navbar-default .navbar-nav>li>a:hover {
+        color: #69c4fe;
+    }
+    .header .navbar-default .navbar-nav>.active>a,
+    .header .navbar-default .navbar-nav>.active>a:hover,
+    .header .navbar-default .navbar-nav>.active>a:focus {
+        background: #69c4fe;
+        color: #fff !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .header .navbar-collapse {
+        padding: 20px 0 0;
+    }
+    .header .navbar {
+        min-height: 40px !important;
+    }
+    .header .navbar-nav {
+        top: 2px;
+        position: relative;
+    }
+    .header .navbar-default .navbar-nav>li {
+        margin-left: 1px;
+    }
+    /*注意这里的padding对导航栏的大小起着关键性的作用*/
+    .header .navbar-default .navbar-nav>li>a {
+        bottom: -2px;
+        position: relative;
+        /*上右下左*/
+        padding: 15px 30px 17px 15px;
+    }
+    .header .navbar-default .navbar-nav>li>a,
+    .header .navbar-default .navbar-nav>li>a:hover,
+    .header .navbar-default .navbar-nav>li>a:focus {
+        background: none;
+    }
+    .header .navbar-default .navbar-nav>.active>a,
+    .header .navbar-default .navbar-nav>li>a:hover,
+    .header .navbar-default .navbar-nav>li>a:focus {
+        color: #69c4fe;
+        bottom: -2px;
+        position: relative;
+    }
+    .header .navbar-default .navbar-nav>li:hover>a {
+        color: #69c4fe;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .header .navbar>.container .navbar-brand,
+    .header .navbar>.container-fluid .navbar-brand {
+        margin-left: -10px;
+    }
+    .header .navbar-toggle {
+        margin-right: 0;
+    }
+}
